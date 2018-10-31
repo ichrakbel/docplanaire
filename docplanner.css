@@ -1,0 +1,486 @@
+
+.nav{
+    height: 70px;
+    display:flex;
+    justify-content:space-around;
+    /*position:fixed;*/
+}
+.menu{margin-top: 2%;
+    width:22%;
+    display:flex;
+    justify-content: space-between;
+}
+.menu a{text-decoration: none;
+    font-size: 20px;
+}
+.nav img{  width:270px; height: 70px;  }
+.about{text-decoration: none; color: #00b39b;}
+.menu1{color: #ababab; } 
+/*main*/
+.main-plan{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entete img 
+{width:8%; 
+}
+.entete {color: #00b39b;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;    
+ }
+ .main-p {
+    font-size: 26px;
+    width: 85%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.fiche { margin-top: 5%; 
+height: 40%;
+display: flex;
+justify-content: space-around;
+position :relative;
+-webkit-animation: mymove 5s infinite;
+animation: mymove 5s ;
+}
+@keyframes mymove {
+    from {top: 0px; }
+    to {top:-25px;}
+}
+.fiche h1{
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    position :relative;
+    -webkit-animation: mymove 5s infinite;
+     animation: mymove 5s ;
+}
+@keyframes mymove {
+    from {top: 0px; }
+    to {top:-25px;}
+}
+
+.fiche h2{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    position :relative;
+    -webkit-animation: mymove 5s infinite;
+     animation: mymove 5s ;
+}
+@keyframes mymove {
+    from {top: 0px; }
+    to {top:-25px;}
+}
+
+.doctor{ background: #3d83df;
+    border-radius: 10px;
+    padding: 5%;
+    overflow: hidden;
+    height:470px;
+    width:30%;
+   }
+ .patient{ background: #00b39b;
+    border-radius: 10px;
+    padding: 5%;
+    overflow: hidden;
+    height: 470px;
+    width:30%;
+   
+ }   
+ .custom-select  select {width: 90%;
+height: 60px;
+font-size: 14px;
+width: 83%;
+ height: 57px;
+margin-bottom: 10%;
+ }    
+
+.patient img-fiche{ 
+      max-width: 100%;
+     height:55%;
+
+     position :relative;
+    animation: mymove 5s infinite;
+     animation: mymove 5s ;
+}
+
+.doctor img-fiche1{max-width: 100%;
+     height:55%; 
+      margin-left: 30%;
+    position :relative;
+    animation: mymove 5s infinite;
+     animation: mymove 5s ;
+
+}
+.fiche-doc{  font-size: 16px;}
+
+.img-fiche1{     width: 140%;
+    }
+.def{width:70%;
+    color: #00b39b;
+    font-size:16px; 
+    margin-top: 5%;
+    display: flex;
+}
+.def-a h1{color: palevioletred;    
+    margin-top: -2%;
+
+}
+svg{
+    fill: #ababab;
+    width: 18%;
+}
+svg :hover{
+    fill:palevioletred;
+}
+  /*main-plan1*/ 
+
+
+.main-plan1 {
+     height: 710px;  
+     display: flex;
+     background-color: #00b39b;
+    text-align: center;
+ }
+.main-plan1 h1{font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.main-about{
+    width: 40%;
+     display: flex;
+    flex-direction:column; 
+    justify-content: center; 
+}
+
+.main-about2{
+    display: flex;
+    margin-top: 5%;
+}
+.main-about3{
+        display: flex;
+        margin-top: 5%;
+}  
+
+.main-plan1 p{    font-size:25px;
+    color:peru;
+    text-align: center;
+
+}
+.main-about img{
+    margin-top: 20%;
+    border-radius: 50%;
+}
+.about{background: #fff;
+    font-size: 16px;
+    width: 30%;
+    margin-left: 11%;
+   padding: 2%;
+    height: 250px;
+   
+    position :relative;
+    -webkit-animation: mymove 2s infinite; 
+    animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top:-75px;}
+}
+
+    
+/*fin-main*/
+
+.fin-main{width:40%;
+    color: palevioletred;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section1{
+    display: flex;
+   
+    margin-bottom: 10%;
+   
+    
+}
+.section2{
+   display: flex;
+    
+    margin-bottom: 10%;
+   
+}
+#btn-a{ 
+    background-color: #3d83df;
+   font-size: 17px;
+    text-decoration: none;
+    box-shadow: #ababab;
+    
+}
+.photo {
+    margin-right:2%
+}
+.photo a{
+    text-decoration: none;
+    margin-right:2%
+}
+photo p{
+    font-size: 18px;
+}
+
+.photoa { font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+   /* margin-left:  8%;*/
+    color:palevioletred;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+  
+    
+    padding: 5%;
+    border: 1px solid rgba(0,0,0,.03);
+}
+
+.main-footer{   
+    border-top: 2px solid #eef2f2;
+    color: #ababab;
+    text-align: center;
+    padding: 4%;
+    font-size: 100% ;
+
+}
+.main-footer a{text-decoration: none;
+
+}
+
+
+
+@media only screen and (max-device-width: 480px){
+   
+    .nav {
+    
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        height: 132px;
+        width: 100%;
+        padding-bottom: 2%;
+        font-size: 30px;
+    }
+    .nav img {
+        width: 480px;
+        height: 110px;
+    } 
+    .menu {
+        margin-top: 5%;
+        width: 18%;
+        flex-direction: column;
+        display: flex;
+        /* font-size: 29px*/   
+}
+.entete {
+    color: #00b39b;
+    font-size: 22px;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.entete img {
+    width: 11%;
+    margin-top: 19%
+}
+.main-p {
+    width: 85%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.fiche {
+    margin-top: 5%;
+    height: 40%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.patient {
+     background: #00b39b; 
+    border-radius: 10px; 
+     overflow: hidden; 
+     height: 580px; 
+    width: 73%;
+    margin-bottom: 20%;
+    font-size: 26px
+}
+.doctor {
+    background: #3d83df;
+    border-radius: 10px;
+    height: 580px;
+    width: 73%;
+     overflow: hidden; 
+     margin-bottom: 20%;
+     font-size: 26px;
+}
+svg{
+    fill: #ababab;
+    width: 38%;
+}
+svg :hover{
+    fill:palevioletred;
+}
+.def {
+    width: 85%;
+    color: #00b39b;
+    font-size: 20px;
+    margin-top: 5%;
+    display: flex;
+}
+
+.main-plan1 {
+    height: 800px;
+    display: flex;
+    background-color: #00b39b;
+    text-align: center;
+    width: 90%;
+}
+
+.main-plan1 h1{font-size: 34px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.main-about{
+    width: 35%;
+     display: flex;
+    flex-direction:column; 
+    justify-content: center; 
+    margin-left: 5%;
+}
+
+.main-about2{
+    display: flex;
+    margin-top: 5%;
+}
+.main-about3{
+        display: flex;
+        margin-top: 5%;
+}  
+
+.main-plan1 p{    font-size:28px;
+    color:black;
+    text-align: center;
+
+}
+.main-about img{
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+.main-about3 {
+    display: flex;
+    margin-top: 10%;
+}
+
+.about {
+    background: #fff;
+    margin-bottom: 8%;
+    font-size: 16px;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    height: 297px;
+    position: relative;
+
+}
+.about2{background: #fff;
+    font-size: 16px;
+    width: 33%;
+    height: 320px;
+    margin-left: 11%;
+    padding: 2%;
+}
+.about3{background: #fff;
+    font-size: 16px;
+    width: 33%;
+    height: 320px;
+    margin-left: 11%;
+    padding: 2%
+
+}
+.about4 {background: #fff;
+    font-size: 16px;
+    width: 33%;
+    height: 320px;
+   /* margin-left: 11%;*/
+    padding: 2%;
+}
+.fin-main{
+    width:65%;
+    color: palevioletred;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fin-main p{
+    font-size: 28px;
+}
+
+.section1 {
+    display: flex;
+    margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.photoa {
+    font-size: 26px;
+    display: flex;
+    color: palevioletred;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 5%;
+    border: 1px solid rgba(0,0,0,.03);
+    width: 145%;
+
+}
+.photo img{
+    width: 1800%;
+   
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.photo img {
+    width: 263%;
+    margin-left: -80%;
+    height: 515px;
+}
+
+}
+#btn-a {
+    background-color: #3d83df;
+    font-size: 23px;
+    text-decoration: none;
+    box-shadow: #ababab
+}
+.main-footer {
+    border-top: 6px solid #eef2f2;
+    color: #ababab;
+    text-align: center;
+    font-size: 111%;
+}
